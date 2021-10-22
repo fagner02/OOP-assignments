@@ -14,7 +14,8 @@
 | 18.10.21 | [Jogo][] |
 | --- | --- |
 
-
+| 19.10.21 | [Lapiseira][] |
+| --- | --- |
 
 [Teste]: https://github.com/fagner02/POO-assignments/blob/0e791de06fd0a547f1a797050a1dc63e09c85fe7/jokenpo.cpp
 [Estressados-1]: https://github.com/fagner02/POO-assignments/blob/c44c339d440896b8f0ea06e48a50af06ea80ed4b/estressados.cpp
