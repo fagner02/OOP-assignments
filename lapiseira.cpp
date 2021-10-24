@@ -25,7 +25,7 @@ class grafite {
 };
 
 class lapiseira {
-  grafite graf;
+  grafite* graf;
   public:
   float calibre;
   bool grafOn = false;
@@ -47,16 +47,19 @@ class lapiseira {
       cout<<"warning: grafite incompatível\n";
       return false;
     }
-    
-    this->graf = graf;
+    delete this->graf;
+    this->graf = &graf;
   
     this->grafOn = true;
     return true;
   }
-  grafite remove() {
-    grafite g = this->graf;
+  grafite* remove() {
+    if(!grafOn) {
+      cout << "warning: sem grafite";
+      return nullptr;
+    }
     grafOn = false; 
-    return g;
+    return std::exchange(this->graf, nullptr);
   }
   void write(int sheets) {
     if(!this->grafOn) {
@@ -64,13 +67,13 @@ class lapiseira {
       return;
     }
     int completed = sheets;
-    while(sheets>0 && this->graf.tamanho>0) {
+    while(sheets>0 && this->graf->tamanho>0) {
       sheets--;
-      this->graf.tamanho -= 
-        degrade[this->graf.dureza];
+      this->graf->tamanho -= 
+        degrade[this->graf->dureza];
     }
     completed -= sheets;
-    if(this->graf.tamanho == 0) {
+    if(this->graf->tamanho == 0) {
       cout << "warning: o grafite acabou\n";
     }
     if(sheets > 0) {
@@ -78,20 +81,20 @@ class lapiseira {
       << sheets <<"\n";
     }
   }
-  string toString(){
-    string out = "calibre: "+
-  to_string(this->calibre);
+  void toString(){
+    cout << "calibre: " <<
+    this->calibre;
     
     if(!this->grafOn){
-      out += ", grafite: null";
-      return out;
+      cout << ", grafite: null\n";
+      return;
     }
-        
-    out += ", grafite: ["+
-      to_string(this->graf.calibre)+ ", " +
-      this->graf.dureza + ", " +
-      to_string(this->graf.tamanho)+ "]";
-    return out;
+    
+    cout << ", grafite: [" <<
+    this->graf->calibre << ", " <<
+    this->graf->dureza << ", " <<
+    this->graf->tamanho << "]\n";
+    return;
   }
 };
 
@@ -123,10 +126,10 @@ bool terminal(lapiseira& l) {
   }
   if(cmd == "remove") {
     cout << "removed " << 
-    l.remove().toString() << "\n";
+    l.remove()->toString() << "\n";
   }
   if(cmd == "show") {
-    cout<< l.toString()<<"\n";
+    l.toString();
   }
   
   return true;
