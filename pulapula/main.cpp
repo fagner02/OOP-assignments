@@ -6,12 +6,12 @@
 
 int main(){
     Trampoline t;
-    Kid k("fagner", 18), k1("augusto", 18), k2("elza", 18);
+    Kid k("ron", 18), k1("von", 18), k2("jon", 18);
     t.print();
     t.arrive(k);
     t.arrive(k1);
     t.arrive(k2);
-    t.remove("augusto");
+    t.remove("von");
     t.print();
     t.in();
     t.in();
