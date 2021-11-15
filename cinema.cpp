@@ -1,9 +1,5 @@
 #include <iostream>
 #include <list>
-#include <memory>
-// #include <thread>
-// #include <chrono>
-// #include <mutex>
 
 class Cliente
 {
