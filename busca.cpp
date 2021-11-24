@@ -1,7 +1,18 @@
 #include "busca.h"
 
 void Contacts::add(Contact c) {
-    this->contacts.push_back(c);
+    // this->contacts.push_back(c);
+    // std::sort(this->contacts.begin(), this->contacts.end(), [](Contact x, Contact y){
+    //     return (x.name.compare(y.name) < 0);
+    // });
+    int insertPos = 0;
+    for(int i = 0; i < this->contacts.size(); i++){
+        if(!(this->contacts[i].name.compare(c.name) < 0)){
+            break;
+        }
+        insertPos = i+1;
+    }
+    this->contacts.insert(this->contacts.begin() + insertPos, c);
 }
 
 void Contacts::remove(std::string name) {
@@ -42,8 +53,20 @@ std::vector<Contact> Contacts::search(std::string pattern) {
 
 std::string Contacts::toString(){
     std::stringstream ss;
+    std::string m = std::max_element(this->contacts.begin(), this->contacts.end(), [](Contact& a, Contact& b){
+        return a.name.length() < b.name.length();
+    })->name;
+
     for(auto& x : this->contacts){
-        ss << x.name << ": " << x.phones[0];
+        ss << x.name << ": " ;
+        for(int i = 0; i < x.phones.size(); i++){
+            if(i == 0){
+                ss << std::string(m.length() - x.name.length(), ' ')<< x.phones[i].number << "\n";
+                continue;
+            }
+            ss << std::string(m.length() + 2, ' ') << x.phones[i].number << "\n";
+        }
     }
+    
     return ss.str();
 }

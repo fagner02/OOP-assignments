@@ -6,6 +6,7 @@
 #ifndef busca_h
 #define busca_h
 class Contacts {
+    public:
     std::vector<Contact> contacts;
     
     void add(Contact c);
