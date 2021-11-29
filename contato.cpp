@@ -22,7 +22,11 @@ bool Phone::validate(){
 
 Contact::Contact(std::string name, std::vector<Phone> phones){
     this->name = name;
-    this->phones = phones;
+    for(auto& x : phones){
+        if(x.validate()){
+            this->phones.push_back(x);
+        }
+    }
 }
 
 void Contact::addPhone(Phone phone) {
