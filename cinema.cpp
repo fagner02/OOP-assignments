@@ -51,7 +51,7 @@ public:
         }
         if (*std::next(chairs.begin(), 2) != nullptr)
         {
-            std::cout << "Sala cheia" << std::endl;
+            std::cout << "Chair already resesrved" << std::endl;
             return;
         }
         auto index = std::next(chairs.begin(), pos);
