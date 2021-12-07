@@ -54,4 +54,4 @@
 [Busca]: https://github.com/fagner02/POO-assignments/tree/main/busca%20%26%20contato
 [ContatoMap]: https://github.com/fagner02/POO-assignments/tree/main/map
 [CinemaMap]: https://github.com/fagner02/POO-assignments/tree/main/map
-[Herança]: 
+[Herança]: https://github.com/fagner02/POO-assignments/tree/main/Inheritance
