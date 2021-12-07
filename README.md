@@ -52,6 +52,6 @@
 [Pula-pula]: https://github.com/fagner02/POO-assignments/tree/main/pulapula
 [Cinema]: https://github.com/fagner02/POO-assignments/blob/029bde2db4651ab41e665af3b2dacb1491c0cde4/cinema.cpp
 [Busca]: https://github.com/fagner02/POO-assignments/tree/main/busca%20%26%20contato
-[ContatoMap]: https://github.com/fagner02/POO-assignments/blob/2451f4d2289d24d5efb6c626713286878c9aa578/busca_map.cpp
-[CinemaMap]: https://github.com/fagner02/POO-assignments/blob/a8a275324d55d23149e080973f5644e3adb16e28/cinema_map.cpp
+[ContatoMap]: https://github.com/fagner02/POO-assignments/tree/main/map
+[CinemaMap]: https://github.com/fagner02/POO-assignments/tree/main/map
 [Herança]: 
