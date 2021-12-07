@@ -48,10 +48,10 @@
 [Jogo]: https://github.com/fagner02/asteroids.git
 [Lapiseira]: https://github.com/fagner02/POO-assignments/blob/a1b67ecb7c8d492a38583f0f304c8b56cdecd856/lapiseira.cpp
 [Motoca]: https://github.com/fagner02/POO-assignments/blob/d26d82c761514afe3bf74df0cfd55703783d8c92/motoca.cpp
-[Contato]: https://github.com/fagner02/POO-assignments/blob/9772ad9ec815c2936eb6ff4b0649b2d82076ee12/contato.cpp
+[Contato]: https://github.com/fagner02/POO-assignments/tree/main/busca%20%26%20contato
 [Pula-pula]: https://github.com/fagner02/POO-assignments/tree/main/pulapula
 [Cinema]: https://github.com/fagner02/POO-assignments/blob/029bde2db4651ab41e665af3b2dacb1491c0cde4/cinema.cpp
-[Busca]: https://github.com/fagner02/POO-assignments/blob/de7776b21d273402a9d59e5cd1e2efcd9fc0d4b1/busca.cpp
+[Busca]: https://github.com/fagner02/POO-assignments/tree/main/busca%20%26%20contato
 [ContatoMap]: https://github.com/fagner02/POO-assignments/blob/2451f4d2289d24d5efb6c626713286878c9aa578/busca_map.cpp
 [CinemaMap]: https://github.com/fagner02/POO-assignments/blob/a8a275324d55d23149e080973f5644e3adb16e28/cinema_map.cpp
 [Herança]: 
