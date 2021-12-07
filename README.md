@@ -38,6 +38,9 @@
 | 29.11.21 | [CinemaMap] |
 |-|-|
 
+| 06.12.21 | [Herança] |
+|-|-|
+
 [Teste]: https://github.com/fagner02/POO-assignments/blob/0e791de06fd0a547f1a797050a1dc63e09c85fe7/jokenpo.cpp
 [Estressados-1]: https://github.com/fagner02/POO-assignments/blob/c44c339d440896b8f0ea06e48a50af06ea80ed4b/estressados.cpp
 [Estressados-2]: https://github.com/fagner02/POO-assignments/blob/bf937d7d429941b3429b97be10eec0a58a32bc6e/estressados2.cpp
@@ -51,3 +54,4 @@
 [Busca]: https://github.com/fagner02/POO-assignments/blob/de7776b21d273402a9d59e5cd1e2efcd9fc0d4b1/busca.cpp
 [ContatoMap]: https://github.com/fagner02/POO-assignments/blob/2451f4d2289d24d5efb6c626713286878c9aa578/busca_map.cpp
 [CinemaMap]: https://github.com/fagner02/POO-assignments/blob/a8a275324d55d23149e080973f5644e3adb16e28/cinema_map.cpp
+[Herança]: 
