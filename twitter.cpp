@@ -55,11 +55,12 @@ public:
         return all;
     }
 
-    void receiveNew(Message* tweet) {
+    void storeMessage(Message* tweet) {
         messages[tweet->getId()] = tweet;
+        unread[tweet->getId()] = tweet;
     }
 
-    void store(Message* tweet) {
+    void storeUnread(Message* tweet) {
         unread[tweet->getId()] = tweet;
     }
 
@@ -97,9 +98,9 @@ public:
     }
 
     void sendTweet(Message* tweet) {
-        this->inbox.receiveNew(tweet);
+        this->inbox.storeMessage(tweet);
         for (auto const& x : followers) {
-            x.second->inbox.receiveNew(tweet);
+            x.second->inbox.storeUnread(tweet);
         }
     }
 
