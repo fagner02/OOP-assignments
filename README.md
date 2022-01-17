@@ -41,6 +41,9 @@
 | 06.12.21 | [Herança] |
 |-|-|
 
+| 16.01.2022 | [Twitter]
+|-|-|
+
 [Teste]: https://github.com/fagner02/OOP-assignments/blob/0e791de06fd0a547f1a797050a1dc63e09c85fe7/jokenpo.cpp
 [Estressados-1]: https://github.com/fagner02/OOP-assignments/blob/c44c339d440896b8f0ea06e48a50af06ea80ed4b/estressados.cpp
 [Estressados-2]: https://github.com/fagner02/OOP-assignments/blob/bf937d7d429941b3429b97be10eec0a58a32bc6e/estressados2.cpp
@@ -55,3 +58,4 @@
 [ContatoMap]: https://github.com/fagner02/OOP-assignments/tree/main/map
 [CinemaMap]: https://github.com/fagner02/OOP-assignments/tree/main/map
 [Herança]: https://github.com/fagner02/OOP-assignments/tree/main/Inheritance
+[Twitter]: https://github.com/fagner02/OOP-assignments/blob/d74b40a81e67ea32d69ca7f3ccc7aa8cb665a95f/twitter.cpp
