@@ -62,4 +62,5 @@
 [contatomap]: https://github.com/fagner02/OOP-assignments/tree/main/map
 [cinemamap]: https://github.com/fagner02/OOP-assignments/tree/main/map
 [herança]: https://github.com/fagner02/OOP-assignments/tree/main/Inheritance
-[hospital: https://github.com/fagner02/oop-assignments/tree/main/hospital [twitter]: https://github.com/fagner02/OOP-assignments/blob/d74b40a81e67ea32d69ca7f3ccc7aa8cb665a95f/twitter.cpp
+[hospital]: https://github.com/fagner02/oop-assignments/tree/main/hospital
+[twitter]: https://github.com/fagner02/OOP-assignments/blob/d74b40a81e67ea32d69ca7f3ccc7aa8cb665a95f/twitter.cpp
