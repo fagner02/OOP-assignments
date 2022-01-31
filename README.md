@@ -42,10 +42,10 @@
 | 06.12.21 | [Herança] |
 | -------- | --------- |
 
-| 16.01.2022 | [Hospital] |
+| 16.01.22 | [Hospital] |
 | ---------- | ---------- |
 
-| 16.01.2022 | [Twitter] |
+| 16.01.22 | [Twitter] |
 | ---------- | --------- |
 
 [teste]: https://github.com/fagner02/OOP-assignments/blob/0e791de06fd0a547f1a797050a1dc63e09c85fe7/jokenpo.cpp
